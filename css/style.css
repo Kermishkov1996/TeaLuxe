@@ -362,6 +362,40 @@ body{
 	.reviews__item:last-child{
 		display: none;
 	}
+	.main-blog{
+		padding: 120px 0;
+	}
+	.main-blog__list{
+		gap: 67px 20px;
+	}
+	.main-blog__item{
+		flex-basis: 460px;
+	}
+	.main-blog__item-img{
+		max-width: 230px;
+	}
+	.main-blog__link{
+		margin-top: 60px;
+	}
+	.mailing-list{
+		padding: 60px 0;
+	}
+	.mailing-list__title{
+		text-align: center;
+	}
+	.mailing-list__inner{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.mailing-list__text{
+		text-align: center;
+	}
+	.prioritise{
+		padding: 120px 0;
+	}
+	.prioritise__list{
+		gap: 30px 210px;
+	}
 }
 
 @media (max-width:860px){
