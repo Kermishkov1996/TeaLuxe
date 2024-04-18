@@ -485,6 +485,18 @@ body{
 	.reviews__item:last-child{
 		display: block;
 	}
+	.main-blog__item{
+		flex-basis: 542px;
+	}
+	.main-blog__item:nth-child(even){
+		margin-left: 98px;
+	}
+	.main-blog__item-img{
+		max-width: 270px;
+	}
+	.main-blog__list{
+		gap: 30px 20px;
+	}
 }
 
 @media (max-width:680px){
