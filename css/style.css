@@ -636,4 +636,17 @@ body{
 	.mailing-list__email{
 		width: 205px;
 	}
+	.prioritise{
+		padding: 50px 0;
+	}
+	.prioritise__list{
+		gap: 40px 100px;
+	}
+	.prioritise__title{
+		font-size: 20px;
+	}
+	.prioritise__text{
+		font-size: 10px;
+		font-weight: 400;
+	}
 }
