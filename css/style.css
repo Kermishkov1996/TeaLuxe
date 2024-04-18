@@ -519,6 +519,9 @@ body{
 		margin-top: 60px;
 		margin-bottom: 60px;
 	}
+	.main-blog__item:nth-child(even){
+		margin-left: 0;
+	}
 }
 
 @media (max-width:480px){
@@ -545,6 +548,29 @@ body{
 	}
 	.reviews__item{
 		flex-basis: 220px;
+	}
+	.main-blog{
+		padding: 60px 0;
+	}
+	.main-blog__item-img{
+		max-width: 230px;
+	}
+	.mailing-list{
+		padding: 50px 0;
+	}
+	.mailing-list__text{
+		flex-basis: 100%;
+		font-size: 13px;
+	}
+	.mailing-list__inner{
+		gap: 30px 0;
+	}
+	.mailing-list__email{
+		width: 324px;
+		margin-right: 20px;
+	}
+	.mailing-list__btn{
+		padding: 10px 39px;
 	}
 }
 
