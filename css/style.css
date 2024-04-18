@@ -633,4 +633,7 @@ body{
 	.main-blog__item-title{
 		min-height: auto;
 	}
+	.mailing-list__email{
+		width: 205px;
+	}
 }
