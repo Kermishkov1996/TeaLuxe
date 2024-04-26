@@ -616,6 +616,21 @@ body{
 	.prioritise__list{
 		gap: 30px 133px;
 	}
+	.footer__inner{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 1fr;
+	}
+	.footer__products,
+	.footer__company{
+		grid-row: span 3;
+	}
+	.footer__contacts{
+		grid-column: 3 / 4;
+		grid-row: 2 / 3;
+	}
+	.footer__copy{
+		margin-right: 120px;
+	}
 }
 
 @media (max-width:680px){
