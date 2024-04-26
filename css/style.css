@@ -428,7 +428,6 @@ body{
 
 
 
-
 @media (max-width:1000px){
 	.header__inner{
 		min-height: auto;
@@ -491,6 +490,24 @@ body{
 	}
 	.prioritise__list{
 		gap: 30px 210px;
+	}
+	.footer__inner{
+		margin-bottom: 55px;
+	}
+	.footer__blockquote{
+		width: 270px;
+	}
+	.footer__blockquote-text{
+		margin-top: 0;
+	}
+	.footer__copy{
+		margin-right: 85px;
+	}
+	.footer__contacts{
+		width: 270px;
+	}
+	.footer__nav-logo{
+		margin-right: 35px;
 	}
 }
 
