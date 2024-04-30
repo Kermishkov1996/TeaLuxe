@@ -60,6 +60,9 @@ body{
 .logo{
 	margin-bottom: 35px;
 }
+.menu--scroll{
+	overflow: hidden;
+}
 .menu__shadow{
 	display: none;
 	position: absolute;
