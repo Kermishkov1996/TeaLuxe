@@ -8,14 +8,14 @@ const body = document.querySelector('body');
 menuBtn.addEventListener('click', ()=>{
 	menuList.classList.toggle('menu__list--open');
 	menuShadow.classList.toggle('menu--open');
-	body.classList.add('menu--scroll');
+	body.classList.add('menu--scroll'); //блокирует скролл в открытом меню
 });
 
 //функция для закрытия меню
 function close() {
 	menuList.classList.remove('menu__list--open');
 	menuShadow.classList.remove('menu--open');
-	body.classList.remove('menu--scroll');
+	body.classList.remove('menu--scroll'); //блокирует скролл в открытом меню
 }
 
 //закрывает меню при нажатии на крестик в меню
